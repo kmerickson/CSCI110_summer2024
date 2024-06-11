@@ -1,8 +1,9 @@
-# name: sec5_14prob10.property
+# name: sec5_14prob1.property
 # Assume the days of the week are numbered 0,1,2,3,4,5,6 from 
 # Sunday to Saturday. This script shows  a function which is 
 # given the day number, and it returns the day name (a string).
 # http://openbookproject.net/thinkcs/python/english3e/functions.html
+# for problem 1 in section 5.14
 # author: Keegan Erickson
 # date: June 10, 2024
 
