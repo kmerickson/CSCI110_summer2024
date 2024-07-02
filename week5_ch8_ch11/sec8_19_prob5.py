@@ -49,10 +49,8 @@ Yours is the Earth and everything that’s in it,
     And which is more you’ll be a Man, my son!
 """
 
-
-
-# remove all punctuation from string
 def remove_punctuation(s):
+    """ remove all punctuation from string """
     s_noPunct = ""
     for letter in s:
         if letter not in string.punctuation:
@@ -61,15 +59,17 @@ def remove_punctuation(s):
     return s_noPunct
 
 
-
-# give a bool telling if an 'e' char is present in a string
 def isThere_e(str):
+    """ give a bool telling if an 'e' char is present in a string """
     for i in str:
         if i == 'e':
             return True
     return False
 
 def count_let_e(text):
+    """ counts the total words and breaks them into a list which
+    then is used to count every word that has an 'e' char in them """
+
     remove_punctuation(text)
 
     #  break into a list of words
@@ -89,7 +89,6 @@ def count_let_e(text):
     print()
     print(output)
     print()
-    
     
 
 count_let_e(ifPoem)
