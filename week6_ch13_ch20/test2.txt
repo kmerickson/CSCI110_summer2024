@@ -1,0 +1,7 @@
+too long...
+but it shouldn't be 
+Not sure
+what will be in this file?
+Hello, world!
+---------------------------------
+My first file written from Python

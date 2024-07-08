@@ -26,10 +26,6 @@ def assignGrade(g):
 
     return s
 
-print(xs[0])
-grade = assignGrade(xs[0])
-
-print(grade)
 
 for i in range(len(xs)):
     print("Exam mark: "+str(xs[i]))
