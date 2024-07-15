@@ -20,7 +20,7 @@ def isSameChar(a, b):
 def replace(s, old, new):
     """ searches through a string for an old char or str and replaces 
     them with a new one """
-    #break a part the str, old, and new
+    #break apart the str, old, and new
     sList = list(s)
     sLen = len(sList)
     oldList = list(old)
